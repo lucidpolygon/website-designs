@@ -1,0 +1,276 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <meta name="description"
+        content="Read the best newsletter for indie startups. Stay up to date with founder news and read exclusive interviews with exciting entrepreneurs">
+    <link rel="icon"
+        href="https://www.highsignal.io/content/images/size/w256h256/2023/05/High-Signal-thumbnail-for-gumroad-2.png"
+        type="image/png">
+
+</head>
+
+
+<body class="bg-black md:max-w-5xl mx-auto">
+
+    <!-- header -->
+    <Header>
+        <!-- Desktop Nav -->
+        <nav class="flex justify-between items-center text-white py-6 px-6">
+            <div class="text-xl">
+                <a href="">High Signal</a>
+            </div>
+            <ul class="space-x-6 font-light hidden md:flex">
+                <li class="underline underline-offset-4"> <a href="#">Home</a> </li>
+                <li class="hover:underline underline-offset-4"> <a href="#">About</a> </li>
+                <li class="hover:underline underline-offset-4"> <a href="#">Newsletter</a> </li>
+                <li class="hover:underline underline-offset-4"> <a href="#">Sponsor</a> </li>
+                <li class="hover:underline underline-offset-4"> <a href="#">Blog</a> </li>
+            </ul>
+            <div class="flex items-center space-x-6">
+                <div class="hidden md:block border border-white rounded-xl hover:bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+                    <div class="px-4 py-1 h-full">
+                        <a href="">Subscribe</a>
+                    </div>
+                </div>
+                <div class="md:hidden cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-6 h-6 search-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                    </svg>
+                </div>
+                <div class="md:hidden cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-8 h-8 mobile-menu-icon">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-8 h-8 close-icon hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Nav -->
+        <nav class="mobile-menu hidden md:hidden fixed top-20 left-0 w-full h-full bg-black text-white z-20">
+            <div class="close-icon absolute top-4 right-4 text-2xl cursor-pointer">
+
+            </div>
+            <ul class="pt-16 text-center text-xl font-light">
+                <li class="py-4"> <a href="#">Home</a> </li>
+                <li class="py-4"> <a href="#">About</a> </li>
+                <li class="py-4"> <a href="#">Newsletter</a> </li>
+                <li class="py-4"> <a href="#">Sponsor</a> </li>
+                <li class="py-4"> <a href="#">Blog</a> </li>
+                <li class="pt-12 pb-4">
+                    <a href="#" class="px-4 py-2 border border-white rounded-xl">Subscribe</a>
+                </li>
+            </ul>
+        </nav>
+    </Header>
+
+    <section>
+        <div class="text-center mt-24 px-4">
+            <h1 class="text-2xl md:text-4xl lg:text-6xl font-bold text-white">Find <span class="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 inline-block text-transparent bg-clip-text">no-code</span> business idea <br /> TechCrunch won't tell you</h1>
+            <p class="mt-8 md:text-xl text-gray-300 font-light">Get inspiration from 9+ founders who have built or sold no-code tools.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-center mt-24 max-w-screen-sm mx-auto px-4">
+            <form action="#">
+                <div class="items-center mb-3 flex">
+                    <div class="relative w-full">
+                        <label for="email" class="hidden mb-2 text-sm font-medium text-gray-900">Email
+                            address</label>
+                        <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                            <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                            </svg>
+                        </div>
+                        <input
+                            class="block px-3 py-2 pl-10 w-full text-sm text-gray-900 bg-gray-50 rounded-lg rounded-none rounded-l-lg"
+                            placeholder="Enter your email" type="email" id="email" required="">
+                    </div>
+                    <div>
+                        <button type="submit"
+                            class="px-3 py-2 w-full text-sm font-medium text-center text-white rounded-lg cursor-pointer rounded-none rounded-r-lg bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 ">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section>
+
+        <div class="text-center mt-24 px-4">
+            <div>
+                <h2 class="text-gray-300 text-md font-light">Latest Post</h2>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    class="w-4 h-4 stroke-gray-300 mx-auto mt-3 animate-bounce">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+                </svg>
+            </div>
+
+
+            <div class="mt-12 grid space-y-20 text-gray-300 md:max-w-xl mx-auto">
+
+                <article class="flex space-x-4">
+                    <img src="https://www.highsignal.io/content/images/2023/11/andrew-davison.jpg" alt="Andrew Davison"
+                        class="w-20 h-20 rounded-full border border-white">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">Selling a website after learning to code with AI</h3>
+                        <p class="text-sm">Andrew Davison is a British founder who built and sold an app by learning to code with ChatGPT. He had...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Nov 22, 2023</span>
+                            <span>&#8226;</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="flex space-x-4">
+                    <img src="https://www.highsignal.io/content/images/2023/11/mDjAfPfC_400x400.jpg" class="w-20 h-20 rounded-full border border-white">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">Selling a directory website for $10,000 - Damn Good Tools</h3>
+                        <p class="text-sm">Imagine selling a website you made for $10,000. Pretty great, huh? Well, that's exactly what Dmytro did when he...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Nov 1, 2023</span>
+                            <span>&#8226;</span>
+                            <span>3 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="flex space-x-4">
+                    <img src="https://eu.ui-avatars.com/api/?name=Mike+Cardona" class="w-20 h-20 rounded-full border border-white">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">How to make a $200k a year business - Mike Cardona interview</h3>
+                        <p class="text-sm">Mike Cardona is a solo founder who has managed to build a $200k online business by specializing in automation content...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Sep 20, 2023</span>
+                            <span>&#8226;</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="flex space-x-4">
+                    <img src="https://eu.ui-avatars.com/api/?name=Our+Baby+AI" class="w-20 h-20 rounded-full border border-white">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">Making $6k from a baby AI photo generator</h3>
+                        <p class="text-sm">Ever wondered, "Is there an AI to see how your baby looks?" Well, you're not alone! OurBabyAI is an app...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Sep 6, 2023</span>
+                            <span>&#8226;</span>
+                            <span>2 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="flex space-x-4">
+                    <img src="https://eu.ui-avatars.com/api/?name=Unicorn+Platform" class="w-20 h-20 bg-cover rounded-full">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">Selling Unicorn Platform for $800k</h3>
+                        <p class="text-sm">I was thrilled to see recently Alex Isora make $800k by selling Unicorn Platform, a website builder, as I previously...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Aug 16, 2023</span>
+                            <span>&#8226;</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="flex space-x-4">
+                    <img src="https://www.highsignal.io/content/images/2023/07/pI7xnM-J_400x400-removebg-preview.png" class="w-20 h-20 rounded-full border border-white">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">Making $20k from a job board directory</h3>
+                        <p class="text-sm">Rod is a founder who has successfully monetized a directory showing websites for finding a job. He has made $20k...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Jul 19, 2023</span>
+                            <span>&#8226;</span>
+                            <span>7 min read</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="flex space-x-4">
+                    <img src="https://www.highsignal.io/content/images/2023/07/james-podcast.webp" class="w-20 h-20 rounded-full border border-white">
+                    <div class="text-left space-y-2">
+                        <h3 class="text-xl">Making $12k a month from podcasts - James McKinven interview</h3>
+                        <p class="text-sm">James McKinven is an entrepreneur who has succeeded in making money from podcasts - no easy feat. He earns about...</p>
+                        <div class="text-xs flex space-x-2">
+                            <span> Jul 5, 2023</span>
+                            <span>&#8226;</span>
+                            <span>7 min read</span>
+                        </div>
+                    </div>
+                </article>
+                                                    
+            </div>
+
+            <div class="mt-12">
+                <div class="border border-white rounded-lg font-light text-white w-fit px-4 py-1 mx-auto hover:bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500">
+                    <a href="">Load More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <footer class="mt-24">
+        <div class="border-t border-gray-800 px-6 text-center">
+            <div class="w-full mx-auto max-w-screen-xl p-4">
+                <span class="text-sm text-gray-500 sm:text-center">© 2023 <a href="#" class="hover:underline">High Signal</a>. All Rights Reserved.
+                </span>
+                <p class="flex flex-wrap items-center font-light text-gray-500 text-sm">
+                    Pete Codes Limited &#8226; Registered in Scotland &#8226; Company number: SC786142 &#8226; 
+                    Cowan & Partners, 60 Constitution Street, Edinburgh, Lothian, Scotland, EH6 6RR
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        Alpine.start();
+
+        const mobileMenuIcon = document.querySelector('.mobile-menu-icon');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const searchIcon = document.querySelector('.search-icon');
+        const closeIcon = document.querySelector('.close-icon');
+
+        mobileMenuIcon.addEventListener('click', function () {
+            mobileMenu.classList.toggle('hidden');
+            mobileMenuIcon.classList.toggle('hidden');
+            searchIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+
+        closeIcon.addEventListener('click', function () {
+            mobileMenu.classList.add('hidden');
+            mobileMenuIcon.classList.toggle('hidden');
+            searchIcon.classList.toggle('hidden');
+            closeIcon.classList.toggle('hidden');
+        });
+    });
+</script>
+
+</body>
+
+</html>
